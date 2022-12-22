@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-pink-200 tracking-wide 
+    @apply bg-white tracking-wide 
   }
 
   h1, h2, h3, h4 {
