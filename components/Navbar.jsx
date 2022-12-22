@@ -30,6 +30,9 @@ function Navbar() {
             <li className='ml-10 text-sm uppercase border-b '>Get in touch</li>
           </Link>
         </ul>
+        <div>
+          
+        </div>
       </div>
       </div>
     </div>
