@@ -3,8 +3,14 @@
 @tailwind utilities;
 
 @layer base {
+
   body {
-    @apply bg-white tracking-wide 
+    font-family: 'Nunito', sans-serif;
+  }
+
+  body {
+    @apply bg-white tracking-wide
+    
   }
 
   h1, h2, h3, h4 {
