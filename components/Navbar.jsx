@@ -43,7 +43,7 @@ function Navbar() {
             <li className='ml-5 text-sm border-2 border-[#0587b5] inline-block px-6  font-medium  leading-tight  rounded hover:bg-black hover:bg-opacity-5 focus:outline-none pt-2 pb-2'>Resume</li>
           </Link>
         </ul>
-        <div onClick={handleNav} className='md:hidden'>
+        <div onClick={handleNav} className='md:hidden cursor-pointer'>
         <HiOutlineQueueList size={30}/>
         </div>
       </div>
