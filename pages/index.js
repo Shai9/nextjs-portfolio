@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Body from '../components/Body'
 import About from '../components/About'
+import Skills from '../components/Skills'
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       </Head>
       <Body />
       <About />
+      <Skills />
       
     </div>
   )
