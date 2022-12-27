@@ -67,22 +67,19 @@ function Navbar() {
         <div>
           <div className='py-4 flex flex-col'>
             <ul className='uppercase'>
-              <Link href='/'>
-                <li className='p-2 text-sm'>Home</li>
-              </Link>
-              <Link href='/'>
+              <Link href='#about'>
                 <li className='p-2 text-sm'>About</li>
               </Link>
-              <Link href='/'>
+              <Link href='#skills'>
                 <li className='p-2 text-sm'>Skills</li>
               </Link>
               <Link href='/'>
                 <li className='p-2 text-sm'>Projects</li>
               </Link>
-              <Link href='/'>
+              <Link href='#contact'>
                 <li className='p-2 text-sm'>Get in touch</li>
               </Link>
-              <Link href='/'>
+              <Link href='/resume'>
                 <li className='text-sm border-2 border-[#0587b5] inline-block px-6  font-medium  leading-tight  rounded hover:bg-black hover:bg-opacity-5 focus:outline-none pt-2 pb-2'>Resume</li>
               </Link>
             </ul>
@@ -90,18 +87,28 @@ function Navbar() {
               <p className='uppercase tracking-widest text-[#0587b5]'>My Handles</p>
             </div>
             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-            <div className='rounded-full shadow-lg border-[#0587b5] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+            <Link href='/https://www.linkedin.com'>
+              <div className='rounded-full shadow-lg border-[#0587b5] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
               <FaLinkedinIn />
-            </div>
-            <div className='rounded-full shadow-lg border-[#0587b5] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-            <FaGithub />
-            </div>
-            <div className='rounded-full shadow-lg border-[#0587b5] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-            <AiOutlineMail />
-            </div>
+              </div>
+            </Link> 
+            <Link href='/https://www.github.com/Shai9'>
+              <div className='rounded-full shadow-lg border-[#0587b5] p-3 cursor-pointer   hover:scale-105 ease-in duration-300'>
+              <FaGithub />
+              </div>
+            </Link>
+            
+            <Link href='#contact'>
+              <div className='rounded-full shadow-lg border-[#0587b5] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+              <AiOutlineMail />
+              </div>
+            </Link>
+            
+            <Link href='/resume'>
             <div className='rounded-full shadow-lg border-[#0587b5] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
             <BsFillPersonLinesFill />
             </div>
+            </Link>
             </div>
           </div>
         </div>

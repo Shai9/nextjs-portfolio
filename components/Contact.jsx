@@ -1,17 +1,16 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import React, { useState } from 'react';
+import React from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
-import ContactImg from '../public/assets/contact.jpg';
+import ContactImg from '../public/assets/pexels.jpg';
 
 const Contact = () => {
   return (
     <div id='contact' className='w-full lg:h-screen'>
       <div className='max-w-[1240px] m-auto px-2 py-16 w-full '>
-        <p className='text-xl tracking-widest uppercase text-[#0587b5]'>
+        <p className='text-xl tracking-widest uppercase text-[#0597b5]'>
           Contact
         </p>
         <h2 className='py-4'>Get In Touch</h2>
@@ -37,15 +36,15 @@ const Contact = () => {
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
-                  
-                    href='https://www.linkedin.com/in/'
+                  <a
+                    href='https://www.linkedin.com'
                     target='_blank'
                     rel='noreferrer'
-                  
+                  >
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
-                  
+                  </a>
                   <a
                     href='https://github.com/Shai9'
                     target='_blank'
@@ -55,17 +54,17 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </a>
-
+                
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                  <Link href='/resume'>
-                  
+
+                    <a href='resume'>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                       </div>
-                    
-                  </Link>
+                    </a>
+            
                 </div>
               </div>
             </div>
@@ -123,7 +122,7 @@ const Contact = () => {
                     name='message'
                   ></textarea>
                 </div>
-                <button className='w-full p-4 text-black mt-4'>
+                <button className='w-full p-4 text-gray-100 mt-4'>
                   Send Message
                 </button>
               </form>
@@ -131,15 +130,16 @@ const Contact = () => {
           </div>
         </div>
         <div className='flex justify-center py-12'>
-          <Link href='/'>
-              <div className='rounded-full shadow-lg shadow-black p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+          
+            <a href='/'>
+              <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
                   className='text-[#0587b5]'
                   size={30}
                 />
               </div>
-            
-          </Link>
+            </a>
+          
         </div>
       </div>
     </div>
