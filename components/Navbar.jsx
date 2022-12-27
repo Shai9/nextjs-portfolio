@@ -16,7 +16,7 @@ function Navbar() {
     setNav(!nav)
   }
   return (
-    <div className='fixed  w-full h-20 shadow-xl z-[100]'>
+    <div className='w-full h-20 shadow-xl z-[100]'>
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
       <Image 
       src='/../public/assets/favicon4.png' 
@@ -90,20 +90,17 @@ function Navbar() {
               <p className='uppercase tracking-widest text-[#0587b5]'>My Handles</p>
             </div>
             <div className='flex items-center justify-between my-4 w-full sm:w-[80%]'>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+            <div className='rounded-full shadow-lg border-[#0587b5] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
               <FaLinkedinIn />
             </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+            <div className='rounded-full shadow-lg border-[#0587b5] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
             <FaGithub />
             </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+            <div className='rounded-full shadow-lg border-[#0587b5] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
             <AiOutlineMail />
             </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
+            <div className='rounded-full shadow-lg border-[#0587b5] p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
             <BsFillPersonLinesFill />
-            </div>
-            <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
-            <BsWhatsapp />
             </div>
             </div>
           </div>
