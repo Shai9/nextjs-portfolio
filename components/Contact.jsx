@@ -36,7 +36,7 @@ const Contact = () => {
               <div>
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
-                  <a
+                  <Link
                     href='https://www.linkedin.com'
                     target='_blank'
                     rel='noreferrer'
@@ -44,8 +44,8 @@ const Contact = () => {
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaLinkedinIn />
                     </div>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href='https://github.com/Shai9'
                     target='_blank'
                     rel='noreferrer'
@@ -53,17 +53,17 @@ const Contact = () => {
                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                       <FaGithub />
                     </div>
-                  </a>
+                  </Link>
                 
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
 
-                    <a href='resume'>
+                    <Link href='resume'>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <BsFillPersonLinesFill />
                       </div>
-                    </a>
+                    </Link>
             
                 </div>
               </div>
@@ -131,14 +131,14 @@ const Contact = () => {
         </div>
         <div className='flex justify-center py-12'>
           
-            <a href='/'>
+            <Link href='/'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
                   className='text-[#0587b5]'
                   size={30}
                 />
               </div>
-            </a>
+            </Link>
           
         </div>
       </div>
