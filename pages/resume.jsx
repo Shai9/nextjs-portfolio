@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import Link from 'next/link';
 
 const resume = () => {
   return (
