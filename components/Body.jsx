@@ -20,7 +20,7 @@ const Body = () => {
           I’m a software engineer specializing in building fullstack applications. 
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
-            <a
+            <Link
               href='https://www.linkedin.com'
               target='_blank'
               rel='noreferrer'
@@ -28,8 +28,8 @@ const Body = () => {
               <div className='rounded-full shadow-lg shadow-gray-400 text-[#0587b5] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaLinkedinIn />
               </div>
-            </a>
-            <a
+            </Link>
+            <Link
               href='https://github.com/Shai9'
               target='_blank'
               rel='noreferrer'
@@ -37,7 +37,7 @@ const Body = () => {
               <div className='rounded-full shadow-lg shadow-gray-400 text-[#0587b5] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <FaGithub />
               </div>
-            </a>
+            </Link>
             <Link href='/#contact'>
               <div className='rounded-full shadow-lg shadow-gray-400 text-[#0587b5] p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <AiOutlineMail />
