@@ -31,20 +31,20 @@ const solace = () => {
             vanilla CSS and some Javascript. The application is hosted statically using Github.io. A
             few features to note with this project are the consumption of an external api and also the responsiveness of the app.
           </p>
-          <a
+          <Link
             href='https://shai9.github.io/Solace-project/'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Demo</button>
-          </a>
-          <a
+          </Link>
+          <Link
             href='https://github.com/Shai9/Solace-project/'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4'>Code</button>
-          </a>
+          </Link>
 
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
