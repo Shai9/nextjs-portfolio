@@ -38,7 +38,7 @@ const Contact = () => {
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <Link
-                    href='https://www.linkedin.com'
+                    href='https://www.linkedin.com/in/dennis-shakava-6343a6243'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -55,10 +55,12 @@ const Contact = () => {
                       <FaGithub />
                     </div>
                   </Link>
-                
-                  <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                    <AiOutlineMail />
-                  </div>
+                  <Link href='/#contact'>
+                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <AiOutlineMail />
+                    </div>
+                  </Link>
+                  
 
                     <Link href='resume'>
                       <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
