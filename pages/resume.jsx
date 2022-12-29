@@ -21,7 +21,7 @@ const resume = () => {
           <h2 className='text-center text-[#0567b5]'>Dennis Shakava</h2>
           <div className='flex'>
             <Link
-              href='https://www.linkedin.com'
+              href='https://www.linkedin.com/in/dennis-shakava-6343a6243'
               target='_blank'
               rel='noreferrer'
             >
