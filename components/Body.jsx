@@ -21,7 +21,7 @@ const Body = () => {
           </p>
           <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
             <Link
-              href='https://www.linkedin.com'
+              href='https://www.linkedin.com/in/dennis-shakava-6343a6243'
               target='_blank'
               rel='noreferrer'
             >
