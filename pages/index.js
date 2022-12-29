@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Body from '../components/Body';
-import About from '../components/About';
 import Skills from '../components/Skills';
 import Projects from '../components/Projects'
 import Contact from '../components/Contact';
@@ -16,7 +15,6 @@ export default function Home() {
         <link rel="icon" href="favicon.png" />
       </Head>
       <Body />
-      <About />
       <Skills />
       <Projects />
       <Contact />
